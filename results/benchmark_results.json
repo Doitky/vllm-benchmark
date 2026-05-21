@@ -1,0 +1,122 @@
+[
+  {
+    "model": "deepseek-v4-flash",
+    "total_requests": 10,
+    "successful_requests": 10,
+    "concurrency": 1,
+    "request_timeout": 30,
+    "max_output_tokens": 100,
+    "use_long_context": false,
+    "total_time": 38.65513586997986,
+    "requests_per_second": 0.2586978360038865,
+    "total_output_tokens": 620,
+    "latency": {
+      "average": 3.8653330326080324,
+      "p50": 3.341897130012512,
+      "p95": 6.477985596656799,
+      "p99": 6.756260533332825
+    },
+    "tokens_per_second": {
+      "average": 17.206522926377897,
+      "p50": 18.921405697450677,
+      "p95": 10.404665786039999,
+      "p99": 10.402266400983681
+    },
+    "time_to_first_token": {
+      "average": 1.2008961200714112,
+      "p50": 0.5622601509094238,
+      "p95": 3.616905879974365,
+      "p99": 3.7568181419372557
+    }
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "total_requests": 100,
+    "successful_requests": 100,
+    "concurrency": 10,
+    "request_timeout": 30,
+    "max_output_tokens": 100,
+    "use_long_context": false,
+    "total_time": 102.69326043128967,
+    "requests_per_second": 0.9737737372445031,
+    "total_output_tokens": 6170,
+    "latency": {
+      "average": 10.20044887304306,
+      "p50": 9.813177585601807,
+      "p95": 14.270407104492188,
+      "p99": 15.969408569335942
+    },
+    "tokens_per_second": {
+      "average": 6.334941417792234,
+      "p50": 6.344844461872928,
+      "p95": 4.340612981848356,
+      "p99": 4.007584496928583
+    },
+    "time_to_first_token": {
+      "average": 1.9550265884399414,
+      "p50": 1.382751703262329,
+      "p95": 4.668595945835113,
+      "p99": 4.671890428066254
+    }
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "total_requests": 500,
+    "successful_requests": 123,
+    "concurrency": 50,
+    "request_timeout": 30,
+    "max_output_tokens": 100,
+    "use_long_context": false,
+    "total_time": 300.5254011154175,
+    "requests_per_second": 0.40928320715479743,
+    "total_output_tokens": 7313,
+    "latency": {
+      "average": 25.372309198224446,
+      "p50": 27.41056990623474,
+      "p95": 29.707261633872985,
+      "p99": 29.893130922317503
+    },
+    "tokens_per_second": {
+      "average": 2.5254186345351064,
+      "p50": 2.179715848643672,
+      "p95": 1.915239717520451,
+      "p99": 1.4705516232926445
+    },
+    "time_to_first_token": {
+      "average": 17.088862246614163,
+      "p50": 19.30656123161316,
+      "p95": 23.329700088500978,
+      "p99": 24.054414710998536
+    }
+  },
+  {
+    "model": "deepseek-v4-flash",
+    "total_requests": 1000,
+    "successful_requests": 125,
+    "concurrency": 100,
+    "request_timeout": 30,
+    "max_output_tokens": 100,
+    "use_long_context": false,
+    "total_time": 301.36473202705383,
+    "requests_per_second": 0.4147797891253533,
+    "total_output_tokens": 7456,
+    "latency": {
+      "average": 25.211845008850098,
+      "p50": 27.094849109649658,
+      "p95": 29.897734117507934,
+      "p99": 29.997191514968872
+    },
+    "tokens_per_second": {
+      "average": 2.630056588375304,
+      "p50": 2.2155995392126444,
+      "p95": 1.927375932676523,
+      "p99": 1.8702344318084814
+    },
+    "time_to_first_token": {
+      "average": 17.688893991470337,
+      "p50": 18.662126541137695,
+      "p95": 24.641638135910036,
+      "p99": 25.095319347381594
+    }
+  }
+]
